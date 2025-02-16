@@ -1,0 +1,10 @@
+{
+   "LinearRegression": "Linear Regression",
+   "LogisticRegression": "Logistic Regression",
+   "LassoRegression": "Lasso Regression",
+   "RidgeRegression": "Ridge Regression",
+   "MulticlassLogisticRegression": "Multiclass Logistic Regression",
+   "NaiveBayes": "Naive Bayes",
+   "k-NearestNeighbors": "k-Nearest Neighbors",
+   "Clustering": "Clustering"
+}
