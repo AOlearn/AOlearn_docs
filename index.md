@@ -5,7 +5,7 @@ hero:
   name:
   text: A  decentralized machine learning framework built for AO
   image:
-    src: /orange.svg  # Change or remove as needed
+    src: 'https://raw.githubusercontent.com/AOlearn/AOlearn_docs/refs/heads/main/orange.svg'  # Change or remove as needed
     alt: AOlearn
   actions:
     - theme: brand
