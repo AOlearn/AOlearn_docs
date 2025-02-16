@@ -1,8 +1,8 @@
-## Modules and Functions
+# Modules and Functions
 
 The **aolearn** library is a collection of machine learning algorithms implemented in a modular fashion. Each module focuses on a specific type of machine learning technique, and each function within a module serves a distinct purpose—training models, making predictions, and handling classification tasks.
 
-### **Modules Overview**
+# # **Modules Overview**
 
 1. **Linear Regression (aolearn.linear_regression)**  
    - Implements simple linear regression using gradient descent for parameter optimization.
@@ -28,26 +28,10 @@ The **aolearn** library is a collection of machine learning algorithms implement
 8. **Clustering (aolearn.clustering)**  
    - Implements k-Means clustering for unsupervised learning and pattern discovery.
 
-### **Functions Overview**
+## **Functions Overview**
 
 Each module is stored in a separate file within the **aolearn** package. These files contain:
 
 - **Function Definitions**: Implementation of training and prediction functions.
 - **Parameter Descriptions**: Explanation of inputs and outputs for each function.
 - **Mathematical Concepts**: Descriptions of the algorithms and optimization techniques used.
-
-#### **File Structure**
-
-```
-aolearn/
-│── linear_regression.mdx
-│── logistic.mdx
-│── lasso.mdx
-│── ridge.mdx
-│── multiclass_logistic.mdx
-│── naive_bayes.mdx
-│── knn.mdx
-│── clustering.mdx
-```
-
-Each file contains structured documentation in MDX format, making it easy to integrate into a documentation site or static site generator.

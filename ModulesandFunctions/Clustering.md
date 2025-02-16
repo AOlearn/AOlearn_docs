@@ -1,12 +1,12 @@
-## Clustering (aolearn.clustering)
+# Clustering (aolearn.clustering)
 
-### fit_kmeans(X, k, numIterations)
+## fit_kmeans(X, k, numIterations)
 Executes k-Means clustering.
 
-#### Parameters:
+## Parameters:
 - `X` (table): Data points to be clustered.
 - `k` (number): The desired number of clusters.
 - `numIterations` (number): Number of iterations.
 
-#### Returns:
+### Returns:
 - `table`: A table of centroids (representing the cluster centers).

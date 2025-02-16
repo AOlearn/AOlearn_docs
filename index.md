@@ -1,21 +1,29 @@
-# AOLearn
+---
+layout: home
 
-A ML framework for AO the hyper parallel computer
+hero:
+  name:
+  text: A  decentralized machine learning framework built for AO
+  image:
+    src: /orange.svg  # Change or remove as needed
+    alt: AOlearn
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /init  # Change to your starting page
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/AOlearn/docs # Replace with actual GitHub repo
 
-## What is AOLearn?
+features:
+  - title: Supervised regression
+    details: use linear model and means for regressive task such as price prediction
+    link: /ModulesandFunctions/LinearRegression
+  - title: Supervised Classification
+    details: use logistic ad naive Bayes for both single class and multi class object classification
+    link: /ModulesandFunctions/LogisticRegression
+  - title: Unsupervised patten recognition
+    details: use algos like Kmeans to identify cluster patterns in a dataset
+    link: /ModulesandFunctions/Clustering
+---
 
-This library provides implementations of several common machine learning algorithms. It is designed primarily for educational purposes and small-scale projects. For applications demanding high performance or significant parallelism, consider deploying trained models to the _ao_ hyper-parallel computer by Arweave, which offers a powerful environment for Lua-based computation.
-
-
-## How to get started
-### easy (recomended)
-- open ide.betteridea.dev
-- now while creating a new process select aolearn as the module id in the more options -> AO Process module
-
-### advanced 
-- add the module id while spawning a new process in aos cli or aoconnect sdk ao.spawn as  'qG-uo90351vUF7WPmUcObFtk7NU1isZYdPS0r2yQdKY'
-
-### importing
-``` lua
-aolearn=require('aolearn')
-```

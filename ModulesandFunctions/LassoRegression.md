@@ -1,26 +1,26 @@
-## Lasso Regression (aolearn.lasso)
+# Lasso Regression (aolearn.lasso)
 
-### fit_lasso(X, y, lambda, learningRate, numIterations)
+## fit_lasso(X, y, lambda, learningRate, numIterations)
 Trains a Lasso regression model (employing L1 regularization) using gradient descent.
 
-#### Parameters:
+### Parameters:
 - `X` (table): Training features.
 - `y` (table): Training labels.
 - `lambda` (number): Regularization strength.
 - `learningRate` (number): Learning rate.
 - `numIterations` (number): Number of iterations.
 
-#### Returns:
+### Returns:
 - `table`: Learned coefficients (theta), including the bias term.
 
 ---
 
-### predict_lasso(theta, features)
+## predict_lasso(theta, features)
 Generates predictions using a fitted Lasso regression model.
 
-#### Parameters:
+### Parameters:
 - `theta` (table): Learned coefficients (including the bias) from `fit_lasso`.
 - `features` (table): Features for a single data point.
 
-#### Returns:
+### Returns:
 - `number`: Predicted value.
