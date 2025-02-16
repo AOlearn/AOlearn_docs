@@ -20,13 +20,6 @@ export default defineConfig({
         --vp-c-brand-4: #94490f;
         --vp-c-brand-light: #b35c14;
         --vp-c-brand-dark: #6d350b;
-        --vp-button-brand-bg: #94490f;
-        --vp-button-brand-hover-bg: #b35c14;
-        --vp-button-brand-active-bg: #6d350b;
-        --docsearch-primary-color: #94490f;
-        --vp-link: #94490f;
-        --vp-link-hover: #b35c14;
-      }
       .vp-theme-default .vp-nav .vp-nav-item--active {
         color: var(--vp-c-brand);
       }
@@ -38,7 +31,7 @@ export default defineConfig({
     ]
   ],
   themeConfig: {
-    logo: '/orange.svg',
+    logo: 'https://raw.githubusercontent.com/AOlearn/AOlearn_docs/refs/heads/main/orange.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/init' },
@@ -70,7 +63,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/AOlearn/docs' }
     ]
   }
 })
