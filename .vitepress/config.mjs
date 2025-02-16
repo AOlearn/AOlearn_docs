@@ -5,6 +5,38 @@ export default defineConfig({
   //show the logo in the title
   title: " ",
   description: "aolearn docs site",
+  head: [
+    [
+      'style',
+      {},
+      `
+      :root {
+        --vp-c-brand: #94490f;
+        --vp-c-brand-light: #b35c14;
+        --vp-c-brand-dark: #6d350b;
+        --vp-c-brand-1: #94490f;
+        --vp-c-brand-2: #b35c14;
+        --vp-c-brand-3: #6d350b;
+        --vp-c-brand-4: #94490f;
+        --vp-c-brand-light: #b35c14;
+        --vp-c-brand-dark: #6d350b;
+        --vp-button-brand-bg: #94490f;
+        --vp-button-brand-hover-bg: #b35c14;
+        --vp-button-brand-active-bg: #6d350b;
+        --docsearch-primary-color: #94490f;
+        --vp-link: #94490f;
+        --vp-link-hover: #b35c14;
+      }
+      .vp-theme-default .vp-nav .vp-nav-item--active {
+        color: var(--vp-c-brand);
+      }
+
+      html.dark {
+        --vp-c-brand: #94490f;
+      }
+      `
+    ]
+  ],
   themeConfig: {
     logo: '/orange.svg',
     // https://vitepress.dev/reference/default-theme-config
